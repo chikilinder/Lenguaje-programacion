@@ -5,6 +5,8 @@
  */
 package javaapplication6;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author chikilinder
@@ -16,6 +18,12 @@ public class JavaApplication6 {
      */
     public static void main(String[] args) {
         
+       System.out.println("hola q tal ");
+       
+       JFrame ventana=new JFrame("hola mundo");
+              ventana.setSize (350 ,350);
+              ventana.setVisible(true);
+              
        
 
         // TODO code application logic here
