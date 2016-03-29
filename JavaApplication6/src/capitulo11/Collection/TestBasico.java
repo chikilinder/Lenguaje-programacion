@@ -6,12 +6,19 @@
 package capitulo11.Collection;
 
 import java.util.ArrayList;
+import javax.swing.JRadioButton;
+
 
 /**
  *
  * @author inter
  */
 public class TestBasico extends javax.swing.JFrame {
+    
+    ArrayList<Pregunta>preguntas;
+    JRadioButton radios []=new JRadioButton[4];
+    
+    
 
     /**
      * Creates new form TestBasico
